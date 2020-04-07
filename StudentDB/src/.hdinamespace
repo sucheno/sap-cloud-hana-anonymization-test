@@ -1,0 +1,4 @@
+{
+    "name":    "sap-cloud-hana-anonymization-test.StudentDB",
+    "subfolder": "append"
+}

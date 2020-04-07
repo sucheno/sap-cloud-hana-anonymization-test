@@ -1,0 +1,23 @@
+{
+	"format_version": 1,
+	"imports":
+	[
+        {
+            "target_table": "sap-cloud-hana-anonymization-test.StudentDB::Tables.Students",
+            "source_data": {
+                "data_type": "CSV",
+                "file_name": "sap-cloud-hana-anonymization-test.StudentDB::Students.csv",
+                "has_header": true,
+				"type_config" : { 
+					"delimiter" : ",", 
+					"do_quote" : true
+				} 
+            },
+            "import_settings": {
+                "import_columns": [
+					"ID","NAME","SITE","GENDER","AGE","SCORE"
+				]
+            }
+        }
+	]
+}
